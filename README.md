@@ -18,7 +18,7 @@ Keeping it simple, I chose to use points, points percentage, goal differential, 
 ## The Models
 
 
-# Random Forest
+### Random Forest
   precision    recall  f1-score   support
 
            0       0.65      0.65      0.65        65
@@ -38,12 +38,11 @@ tx__0: 0.0100
 tx__1: 0.0159
 conference__Western: 0.0163
 
-# XGBoost
+### XGBoost
 precision    recall  f1-score   support
 
            0       0.66      0.65      0.65        65
-           1       0.70      0.71      0.70        75
-
+           1       0.70      0.71      0.70        75           
     accuracy                           0.68       140
    macro avg       0.68      0.68      0.68       140
 weighted avg       0.68      0.68      0.68       140
@@ -69,7 +68,6 @@ Random Forest Test Report:
 
            0       0.63      0.63      0.63        65
            1       0.68      0.68      0.68        75
-
     accuracy                           0.66       140
    macro avg       0.66      0.66      0.66       140
 weighted avg       0.66      0.66      0.66       140
@@ -84,7 +82,7 @@ tx__0: 0.0100
 tx__1: 0.0159
 conference__Western: 0.0163
 
-# XGBoost Grid
+### XGBoost Grid
 Fitting 5 folds for each of 1296 candidates, totalling 6480 fits
 XGBoost Best Params: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 10, 'subsample': 0.8}
 XGBoost CV Score: 0.7714285714285714
@@ -102,7 +100,7 @@ When it comes to conference, there is more variability in the standings in the E
 
 ![image](https://github.com/user-attachments/assets/06efd687-5f05-4d69-8697-26e52479cc05)
 
-# Drop Out Teams
+## Drop Out Teams
 These are teams that were within the playoff structure at American Thanksgiving, but failed to qualify for playoffs by the end of the season.
 
 Drop Out Teams East:
@@ -117,7 +115,7 @@ Median points distance to 8th spot: 2.0
 Most frequent Points distance to 8th spot: 0
 Avg change in points percentage: 0.09
 
-# Late Surge Teams
+## Late Surge Teams
 These are teams that were not within the playoff strucutre at American Thanksgiving, but did make the playoffs at the end of the season.
 
 Eastern Late Surge Teams:
