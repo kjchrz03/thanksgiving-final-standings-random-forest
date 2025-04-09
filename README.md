@@ -27,7 +27,6 @@ Keeping it simple, I chose to use points, points percentage, goal differential, 
     accuracy                           0.67       140
    macro avg       0.67      0.67      0.67       140
 weighted avg       0.67      0.67      0.67       140
-
 tx_points: 0.1383
 tx_points_pct: 0.2444
 tx_goal_diff: 0.2358
@@ -48,7 +47,6 @@ precision    recall  f1-score   support
     accuracy                           0.68       140
    macro avg       0.68      0.68      0.68       140
 weighted avg       0.68      0.68      0.68       140
-
 tx_points: 0.0959
 tx_points_pct: 0.2574
 tx_goal_diff: 0.1201
@@ -75,7 +73,6 @@ Random Forest Test Report:
     accuracy                           0.66       140
    macro avg       0.66      0.66      0.66       140
 weighted avg       0.66      0.66      0.66       140
-
 tx_points: 0.1383
 tx_points_pct: 0.2444
 tx_goal_diff: 0.2358
@@ -96,7 +93,6 @@ XGBoost Test Report:
 
            0       0.68      0.66      0.67        65
            1       0.71      0.73      0.72        75
-
     accuracy                           0.70       140
    macro avg       0.70      0.70      0.70       140
 weighted avg       0.70      0.70      0.70       140
