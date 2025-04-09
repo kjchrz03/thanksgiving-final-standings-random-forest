@@ -101,31 +101,38 @@ When it comes to conference, there is more variability in the standings in the E
 These are teams that were within the playoff structure at American Thanksgiving, but failed to qualify for playoffs by the end of the season.
 
 **Drop Out Teams East:**
+<ul>
 <ul>Average points distance to 8th spot: 2.43</ul>
 <ul>Median points distance to 8th spot: 2.0</ul>
 <ul>Most frequent Points distance to 8th spot: 0.0</ul>
 <ul>Avg change in points percentage: 0.1</ul>
+</ul>
 
 **Drop Out Teams West:**
+<ul>
 <ul>Average points distance to 8th spot: 2.58</ul>
 <ul>Median points distance to 8th spot: 2.0</ul>
 <ul>Most frequent Points distance to 8th spot: 0 </ul>
 <ul>Avg change in points percentage: 0.09</ul>
-
+</ul>
 ## Late Surge Teams
 These are teams that were not within the playoff strucutre at American Thanksgiving, but did make the playoffs at the end of the season.
 
 **Eastern Late Surge Teams:**
+<ul>
 <ul>Average points distance to 8th spot: -2.89</ul>
 <ul>Median points distance to 8th spot: -3.0</ul>
 <ul>Most frequent Points distance to 8th spot: -2</ul>
 <ul>Avg change in points percentage: -0.1</ul>
+</ul>
 
 **Western Late Surge Teams:**
+<ul>
 <ul>Average points distance to 8th spot: -2.05</ul>
 <ul>Median points distance to 8th spot: -1.0</ul>
 <ul>Most frequent Points distance to 8th spot: 0</ul>
 <ul>Avg change in points percentage: -0.1</ul>
+</ul>
 
 ## Predictions
 After running my test data through the best model, I also added a projected points calculation. The simple, standard formula is calculated as: `(points / games_played) * 82`
