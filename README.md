@@ -135,108 +135,26 @@ Avg change in points percentage: -0.1
 
 ## Predictions
 After running my test data through the best model, I also added a projected points calculation. The simple, standard formula is calculated as: `(points / games_played) * 82`
-<table>
-  <tr>
-    <th>Team Name</th>
-    <th>Points Percentage</th>
-    <th>Goal Differential</th>
-    <th>Strength of Schedule</th>
-    <th>Projected Points</th>
-    <th>Prediction</th>
-  </tr>
-  <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-    <tr>
-    <td>cell 1</td>
-    <td>cell 2</td>
-    <td>cell 3</td>
-  </tr>
-</table>
-**Eastern Conference**
-Carolina Hurricanes	33	0.750000	30	1	1	0.494506	0.5	Eastern	123.0	1	Make Playoffs
-Washington Capitals	31	0.704545	30	3	1	0.479726	0.5	Eastern	116.0	1	Make Playoffs
-1	New Jersey Devils	32	0.640000	19	2	-1	0.507510	0.5	Eastern	105.0	1	Make Playoffs
-3	Toronto Maple Leafs	28	0.636364	8	4	-1	0.507319	0.5	Eastern	104.0	1	Make Playoffs
-5	New York Rangers	25	0.595238	11	6	-1	0.463625	0.5	Eastern	98.0	1	Make Playoffs
-4	Florida Panthers	27	0.586957	3	5	1	0.499246	0.5	Eastern	96.0	1	Make Playoffs
-7	Tampa Bay Lightning	24	0.571429	14	8	-1	0.547343	0.5	Eastern	94.0	1	Make Playoffs
-8	Buffalo Sabres	23	0.522727	3	9	-1	0.490399	0.5	Eastern	86.0	0	Miss Playoffs
-6	Boston Bruins	25	0.520833	-18	7	1	0.478487	0.5	Eastern	85.0	0	Miss Playoffs
-9	Philadelphia Flyers	23	0.500000	-13	10	1	0.501047	0.5	Eastern	82.0	0	Miss Playoffs
-10	Detroit Red Wings	22	0.500000	-11	11	1	0.475995	0.5	Eastern	82.0	0	Miss Playoffs
-11	Columbus Blue Jackets	21	0.500000	-3	12	0	0.511354	0.5	Eastern	82.0	0	Miss Playoffs
-12	Ottawa Senators	21	0.477273	-1	13	1	0.486595	0.5	Eastern	78.0	1	Make Playoffs
-13	New York Islanders	21	0.456522	-11	14	-1	0.482864	0.5	Eastern	75.0	0	Miss Playoffs
-15	Montréal Canadiens	19	0.431818	-21	16	1	0.509299	0.5	Eastern	71.0	0	Miss Playoffs
-14	Pittsburgh Penguins	20	0.416667	-33	15	1	0.501447	0.5	Eastern	68.0	0	Miss Playoffs
+| Team Name               | Points Percentage | Goal Differential | Strength of Schedule | Projected Points | Prediction      |
+|-------------------------|-------------------|--------------------|----------------------|------------------|------------------|
+| Carolina Hurricanes     | 0.750000          | 30                 | 0.494506             | 123.0            | Make Playoffs    |
+| Washington Capitals     | 0.704545          | 30                 | 0.479726             | 116.0            | Make Playoffs    |
+| New Jersey Devils       | 0.640000          | 19                 | 0.507510             | 105.0            | Make Playoffs    |
+| Toronto Maple Leafs     | 0.636364          | 8                  | 0.507319             | 104.0            | Make Playoffs    |
+| New York Rangers        | 0.595238          | 11                 | 0.463625             | 98.0             | Make Playoffs    |
+| Florida Panthers        | 0.586957          | 3                  | 0.499246             | 96.0             | Make Playoffs    |
+| Tampa Bay Lightning     | 0.571429          | 14                 | 0.547343             | 94.0             | Make Playoffs    |
+| Buffalo Sabres          | 0.522727          | 3                  | 0.490399             | 86.0             | Miss Playoffs    |
+| Boston Bruins           | 0.520833          | -18                | 0.478487             | 85.0             | Miss Playoffs    |
+| Philadelphia Flyers     | 0.500000          | -13                | 0.501047             | 82.0             | Miss Playoffs    |
+| Detroit Red Wings       | 0.500000          | -11                | 0.475995             | 82.0             | Miss Playoffs    |
+| Columbus Blue Jackets   | 0.500000          | -3                 | 0.511354             | 82.0             | Miss Playoffs    |
+| Ottawa Senators         | 0.477273          | -1                 | 0.486595             | 78.0             | Make Playoffs    |
+| New York Islanders      | 0.456522          | -11                | 0.482864             | 75.0             | Miss Playoffs    |
+| Montréal Canadiens      | 0.431818          | -21                | 0.509299             | 71.0             | Miss Playoffs    |
+| Pittsburgh Penguins     | 0.416667          | -33                | 0.501447             | 68.0             | Miss Playoffs    |
+
+
 
 ## V2 Questions
 I plan to explore the following in the next iteration of my model:
