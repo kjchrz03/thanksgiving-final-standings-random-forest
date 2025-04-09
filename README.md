@@ -103,7 +103,7 @@ These are teams that were within the playoff structure at American Thanksgiving,
 **Drop Out Teams East:**
 <ul>Average points distance to 8th spot: 2.43</ul>
 <ul>Median points distance to 8th spot: 2.0</ul>
-<ul>Most frequent Points distance to 8th spot: 0</ul>
+<ul>Most frequent Points distance to 8th spot: 0.0</ul>
 <ul>Avg change in points percentage: 0.1</ul>
 
 **Drop Out Teams West:**
