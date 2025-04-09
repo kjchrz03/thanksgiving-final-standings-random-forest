@@ -109,8 +109,8 @@ These are teams that were within the playoff structure at American Thanksgiving,
 **Drop Out Teams West:**
 <ul>Average points distance to 8th spot: 2.58</ul>
 <ul>Median points distance to 8th spot: 2.0</ul>
-<ul>Most frequent Points distance to 8th spot: </ul>0</ul>
-<ul>Avg change in points percentage: 0.09
+<ul>Most frequent Points distance to 8th spot: 0 </ul>
+<ul>Avg change in points percentage: 0.09</ul>
 
 ## Late Surge Teams
 These are teams that were not within the playoff strucutre at American Thanksgiving, but did make the playoffs at the end of the season.
