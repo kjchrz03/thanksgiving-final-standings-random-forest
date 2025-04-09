@@ -85,10 +85,10 @@ Random Forest Test Report:
     conference__Western: 0.0163
 
 ### XGBoost Grid
-Fitting 5 folds for each of 1296 candidates, totalling 6480 fits
+`Fitting 5 folds for each of 1296 candidates, totalling 6480 fits
 XGBoost Best Params: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 10, 'subsample': 0.8}
 XGBoost CV Score: 0.7714285714285714
-XGBoost Test Report:
+XGBoost Test Report:`
                
                    precision    recall    f1-score    support
            0       0.68         0.66      0.67        65
@@ -135,24 +135,26 @@ Avg change in points percentage: -0.1
 
 ## Predictions
 After running my test data through the best model, I also added a projected points calculation. The simple, standard formula is calculated as: `(points / games_played) * 82`
-| Team Name               | Points Percentage | Goal Differential | Strength of Schedule | Projected Points | Prediction      |
-|-------------------------|-------------------|--------------------|----------------------|------------------|------------------|
-| Carolina Hurricanes     | 0.750000          | 30                 | 0.494506             | 123.0            | Make Playoffs    |
-| Washington Capitals     | 0.704545          | 30                 | 0.479726             | 116.0            | Make Playoffs    |
-| New Jersey Devils       | 0.640000          | 19                 | 0.507510             | 105.0            | Make Playoffs    |
-| Toronto Maple Leafs     | 0.636364          | 8                  | 0.507319             | 104.0            | Make Playoffs    |
-| New York Rangers        | 0.595238          | 11                 | 0.463625             | 98.0             | Make Playoffs    |
-| Florida Panthers        | 0.586957          | 3                  | 0.499246             | 96.0             | Make Playoffs    |
-| Tampa Bay Lightning     | 0.571429          | 14                 | 0.547343             | 94.0             | Make Playoffs    |
-| Buffalo Sabres          | 0.522727          | 3                  | 0.490399             | 86.0             | Miss Playoffs    |
-| Boston Bruins           | 0.520833          | -18                | 0.478487             | 85.0             | Miss Playoffs    |
-| Philadelphia Flyers     | 0.500000          | -13                | 0.501047             | 82.0             | Miss Playoffs    |
-| Detroit Red Wings       | 0.500000          | -11                | 0.475995             | 82.0             | Miss Playoffs    |
-| Columbus Blue Jackets   | 0.500000          | -3                 | 0.511354             | 82.0             | Miss Playoffs    |
-| Ottawa Senators         | 0.477273          | -1                 | 0.486595             | 78.0             | Make Playoffs    |
-| New York Islanders      | 0.456522          | -11                | 0.482864             | 75.0             | Miss Playoffs    |
-| Montréal Canadiens      | 0.431818          | -21                | 0.509299             | 71.0             | Miss Playoffs    |
-| Pittsburgh Penguins     | 0.416667          | -33                | 0.501447             | 68.0             | Miss Playoffs    |
+
+**Eastern Conference**
+| Team Name               | Points Percentage | Goal Differential | Strength of Schedule | Projected Points | Prediction      | Playoff Probability |
+|-------------------------|-------------------|--------------------|----------------------|------------------|------------------|----------------------|
+| Carolina Hurricanes     | 0.750000          | 30                 | 0.494506             | 123.0            | Make Playoffs    | 0.658114             |
+| Washington Capitals     | 0.704545          | 30                 | 0.479726             | 116.0            | Make Playoffs    | 0.658114             |
+| New Jersey Devils       | 0.640000          | 19                 | 0.507510             | 105.0            | Make Playoffs    | 0.665092             |
+| Toronto Maple Leafs     | 0.636364          | 8                  | 0.507319             | 104.0            | Make Playoffs    | 0.660284             |
+| New York Rangers        | 0.595238          | 11                 | 0.463625             | 98.0             | Make Playoffs    | 0.658001             |
+| Florida Panthers        | 0.586957          | 3                  | 0.499246             | 96.0             | Make Playoffs    | 0.655622             |
+| Tampa Bay Lightning     | 0.571429          | 14                 | 0.547343             | 94.0             | Make Playoffs    | 0.631949             |
+| Buffalo Sabres          | 0.522727          | 3                  | 0.490399             | 86.0             | Miss Playoffs    | 0.414062             |
+| Boston Bruins           | 0.520833          | -18                | 0.478487             | 85.0             | Miss Playoffs    | 0.343755             |
+| Philadelphia Flyers     | 0.500000          | -13                | 0.501047             | 82.0             | Miss Playoffs    | 0.293880             |
+| Detroit Red Wings       | 0.500000          | -11                | 0.475995             | 82.0             | Miss Playoffs    | 0.313680             |
+| Columbus Blue Jackets   | 0.500000          | -3                 | 0.511354             | 82.0             | Miss Playoffs    | 0.382591             |
+| Ottawa Senators         | 0.477273          | -1                 | 0.486595             | 78.0             | Miss Playoffs    | 0.393101             |
+| New York Islanders      | 0.456522          | -11                | 0.482864             | 75.0             | Miss Playoffs    | 0.280545             |
+| Montréal Canadiens      | 0.431818          | -21                | 0.509299             | 71.0             | Miss Playoffs    | 0.278458             |
+| Pittsburgh Penguins     | 0.416667          | -33                | 0.501447             | 68.0             | Miss Playoffs    | 0.280545             |
 
 
 
