@@ -38,7 +38,6 @@ Keeping it simple, I chose to use points, points percentage, goal differential, 
     conference__Western: 0.0163
 
 ### XGBoost
-precision    recall  f1-score   support
 
                     precision    recall    f1-score    support
             0       0.66         0.65      0.65        65
@@ -60,12 +59,11 @@ precision    recall  f1-score   support
 
 
 ## Hyperparameter Tuning
-#Random Forest Grid
-Fitting 5 folds for each of 48 candidates, totalling 240 fits
+###_Random Forest Grid_
+`Fitting 5 folds for each of 48 candidates, totalling 240 fits
 Random Forest Best Params: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
 Random Forest CV Score: 0.7660714285714286
-Random Forest Test Report:
-              
+Random Forest Test Report:`              
 
                    precision    recall    f1-score    support
            0       0.63         0.63      0.63        65
@@ -84,7 +82,7 @@ Random Forest Test Report:
     tx__1: 0.0159
     conference__Western: 0.0163
 
-### XGBoost Grid
+###_XGBoost Grid_
 `Fitting 5 folds for each of 1296 candidates, totalling 6480 fits
 XGBoost Best Params: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 10, 'subsample': 0.8}
 XGBoost CV Score: 0.7714285714285714
