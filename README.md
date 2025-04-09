@@ -101,10 +101,10 @@ When it comes to conference, there is more variability in the standings in the E
 These are teams that were within the playoff structure at American Thanksgiving, but failed to qualify for playoffs by the end of the season.
 
 **Drop Out Teams East:**
-`Average points distance to 8th spot: 2.43
+<ul>Average points distance to 8th spot: 2.43
 Median points distance to 8th spot: 2.0
 Most frequent Points distance to 8th spot: 0
-Avg change in points percentage: 0.1`
+Avg change in points percentage: 0.1</ul>
 
 **Drop Out Teams West:**
 `Average points distance to 8th spot: 2.58
