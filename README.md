@@ -101,31 +101,31 @@ When it comes to conference, there is more variability in the standings in the E
 These are teams that were within the playoff structure at American Thanksgiving, but failed to qualify for playoffs by the end of the season.
 
 **Drop Out Teams East:**
-<ul>Average points distance to 8th spot: 2.43
-Median points distance to 8th spot: 2.0
-Most frequent Points distance to 8th spot: 0
-Avg change in points percentage: 0.1</ul>
+<ul>Average points distance to 8th spot: 2.43</ul>
+<ul>Median points distance to 8th spot: 2.0</ul>
+<ul>Most frequent Points distance to 8th spot: 0</ul>
+<ul>Avg change in points percentage: 0.1</ul>
 
 **Drop Out Teams West:**
-`Average points distance to 8th spot: 2.58
-Median points distance to 8th spot: 2.0
-Most frequent Points distance to 8th spot: 0
-Avg change in points percentage: 0.09`
+<ul>Average points distance to 8th spot: 2.58</ul>
+<ul>Median points distance to 8th spot: 2.0</ul>
+<ul>Most frequent Points distance to 8th spot: </ul>0</ul>
+<ul>Avg change in points percentage: 0.09
 
 ## Late Surge Teams
 These are teams that were not within the playoff strucutre at American Thanksgiving, but did make the playoffs at the end of the season.
 
 **Eastern Late Surge Teams:**
-`Average points distance to 8th spot: -2.89
-Median points distance to 8th spot: -3.0
-Most frequent Points distance to 8th spot: -2
-Avg change in points percentage: -0.1`
+<ul>Average points distance to 8th spot: -2.89</ul>
+<ul>Median points distance to 8th spot: -3.0</ul>
+<ul>Most frequent Points distance to 8th spot: -2</ul>
+<ul>Avg change in points percentage: -0.1</ul>
 
 **Western Late Surge Teams:**
-`Average points distance to 8th spot: -2.05
-Median points distance to 8th spot: -1.0
-Most frequent Points distance to 8th spot: 0
-Avg change in points percentage: -0.1`
+<ul>Average points distance to 8th spot: -2.05</ul>
+<ul>Median points distance to 8th spot: -1.0</ul>
+<ul>Most frequent Points distance to 8th spot: 0</ul>
+<ul>Avg change in points percentage: -0.1</ul>
 
 ## Predictions
 After running my test data through the best model, I also added a projected points calculation. The simple, standard formula is calculated as: `(points / games_played) * 82`
@@ -152,6 +152,24 @@ These results are predicting the end of the 2024-2025 NHL season.
 | Pittsburgh Penguins     | 0.416667          | -33                | 0.501447             | 68.0             | Miss Playoffs    | 0.280545             |
 
 **Western Conference**
+| Team Name              | Points Percentage | Goal Differential | Strength of Schedule | Projected Points | Prediction      | Playoff Probability |
+|------------------------|-------------------|--------------------|----------------------|------------------|------------------|----------------------|
+| Winnipeg Jets          | 0.782609          | 34                 | 0.511890             | 128.0            | Make Playoffs    | 0.633411             |
+| Minnesota Wild         | 0.727273          | 17                 | 0.528428             | 119.0            | Make Playoffs    | 0.666733             |
+| Vegas Golden Knights   | 0.673913          | 17                 | 0.516662             | 111.0            | Make Playoffs    | 0.665092             |
+| Dallas Stars           | 0.619048          | 16                 | 0.458403             | 102.0            | Make Playoffs    | 0.659042             |
+| Calgary Flames         | 0.608696          | -1                 | 0.491892             | 100.0            | Make Playoffs    | 0.587584             |
+| Vancouver Canucks      | 0.595238          | 0                  | 0.512361             | 98.0             | Make Playoffs    | 0.588707             |
+| Los Angeles Kings      | 0.586957          | 4                  | 0.472435             | 96.0             | Make Playoffs    | 0.655622             |
+| Colorado Avalanche     | 0.565217          | -7                 | 0.505343             | 93.0             | Make Playoffs    | 0.522112             |
+| Edmonton Oilers        | 0.545455          | -5                 | 0.507190             | 89.0             | Miss Playoffs    | 0.485127             |
+| Seattle Kraken         | 0.500000          | 0                  | 0.512910             | 82.0             | Miss Playoffs    | 0.388062             |
+| Anaheim Ducks          | 0.500000          | -7                 | 0.480321             | 82.0             | Miss Playoffs    | 0.400432             |
+| St. Louis Blues        | 0.479167          | -15                | 0.521079             | 79.0             | Miss Playoffs    | 0.288690             |
+| Utah Hockey Club       | 0.477273          | -9                 | 0.502174             | 78.0             | Miss Playoffs    | 0.321610             |
+| Chicago Blackhawks     | 0.409091          | -9                 | 0.456579             | 67.0             | Miss Playoffs    | 0.356767             |
+| Nashville Predators    | 0.391304          | -19                | 0.487793             | 64.0             | Miss Playoffs    | 0.278458             |
+| San Jose Sharks        | 0.380000          | -23                | 0.496682             | 62.0             | Miss Playoffs    | 0.278458             |
 
 ## V2 Questions
 I plan to explore the following in the next iteration of my model:
