@@ -17,8 +17,6 @@ Keeping it simple, I chose to use points, points percentage, goal differential, 
 
 ## The Models
 ### Random Forest
-  
-
                      precision   recall     f1-score    support
              0       0.65        0.65       0.65        65
              1       0.69        0.69       0.69        75
@@ -38,7 +36,6 @@ Keeping it simple, I chose to use points, points percentage, goal differential, 
     conference__Western: 0.0163
 
 ### XGBoost
-
                     precision    recall    f1-score    support
             0       0.66         0.65      0.65        65
             1       0.70         0.71      0.70        75           
@@ -57,9 +54,8 @@ Keeping it simple, I chose to use points, points percentage, goal differential, 
     tx__1: 0.0481
     conference__Western: 0.0655
 
-
 ## Hyperparameter Tuning
-###_Random Forest Grid_
+### Random Forest Grid
 `Fitting 5 folds for each of 48 candidates, totalling 240 fits
 Random Forest Best Params: {'bootstrap': True, 'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}
 Random Forest CV Score: 0.7660714285714286
@@ -82,7 +78,7 @@ Random Forest Test Report:`
     tx__1: 0.0159
     conference__Western: 0.0163
 
-###_XGBoost Grid_
+### XGBoost Grid
 `Fitting 5 folds for each of 1296 candidates, totalling 6480 fits
 XGBoost Best Params: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 10, 'subsample': 0.8}
 XGBoost CV Score: 0.7714285714285714
@@ -104,13 +100,13 @@ When it comes to conference, there is more variability in the standings in the E
 ## Drop Out Teams
 These are teams that were within the playoff structure at American Thanksgiving, but failed to qualify for playoffs by the end of the season.
 
-Drop Out Teams East:
+**Drop Out Teams East:**
 Average points distance to 8th spot: 2.43
 Median points distance to 8th spot: 2.0
 Most frequent Points distance to 8th spot: 0
 Avg change in points percentage: 0.1
 
-Drop Out Teams West:
+**Drop Out Teams West:**
 Average points distance to 8th spot: 2.58
 Median points distance to 8th spot: 2.0
 Most frequent Points distance to 8th spot: 0
@@ -119,13 +115,13 @@ Avg change in points percentage: 0.09
 ## Late Surge Teams
 These are teams that were not within the playoff strucutre at American Thanksgiving, but did make the playoffs at the end of the season.
 
-Eastern Late Surge Teams:
+**Eastern Late Surge Teams:**
 Average points distance to 8th spot: -2.89
 Median points distance to 8th spot: -3.0
 Most frequent Points distance to 8th spot: -2
 Avg change in points percentage: -0.1
 
-Western Late Surge Teams:
+**Western Late Surge Teams:**
 Average points distance to 8th spot: -2.05
 Median points distance to 8th spot: -1.0
 Most frequent Points distance to 8th spot: 0
@@ -133,8 +129,9 @@ Avg change in points percentage: -0.1
 
 ## Predictions
 After running my test data through the best model, I also added a projected points calculation. The simple, standard formula is calculated as: `(points / games_played) * 82`
+These results are predicting the end of the 2024-2025 NHL season.
 
-**Eastern Conference**
+**Eastern Conference:**
 | Team Name               | Points Percentage | Goal Differential | Strength of Schedule | Projected Points | Prediction      | Playoff Probability |
 |-------------------------|-------------------|--------------------|----------------------|------------------|------------------|----------------------|
 | Carolina Hurricanes     | 0.750000          | 30                 | 0.494506             | 123.0            | Make Playoffs    | 0.658114             |
@@ -154,7 +151,7 @@ After running my test data through the best model, I also added a projected poin
 | Montréal Canadiens      | 0.431818          | -21                | 0.509299             | 71.0             | Miss Playoffs    | 0.278458             |
 | Pittsburgh Penguins     | 0.416667          | -33                | 0.501447             | 68.0             | Miss Playoffs    | 0.280545             |
 
-
+**Western Conference**
 
 ## V2 Questions
 I plan to explore the following in the next iteration of my model:
